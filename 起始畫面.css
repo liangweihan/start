@@ -1,0 +1,42 @@
+/* 起始畫面.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* 新增背景色 */
+}
+
+nav {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  padding: 10px 0; /* 調整導航欄的上下間距 */
+}
+
+nav h1 {
+  margin: 0;
+  padding: 10px 20px; /* 調整標題的間距 */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* 讓選項水平置中 */
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #404040;
+}
